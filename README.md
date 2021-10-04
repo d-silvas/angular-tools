@@ -18,3 +18,8 @@ export const actionOne = createAction(FeatureActionTypes.actionOne);
 
 The script walks over every folder under `./src`, finds duplicate action names, and writes them
 in a new file called `duplicate_actions.json`.
+
+
+## dependencies.js
+
+Requires `dependency-tree` to be installed. Gets a tree of the dependencies of one particular file.
